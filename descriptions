@@ -1,0 +1,20 @@
+Track1:
+    Simple 1 line, 1 train. Train reaches terminator and stops
+
+Track2
+    More complex. Junction where 2  trains want to move to the same track. No Signal. Causes a collision
+
+Track3
+    Similar to track2 but both trains have a signal. Train 1 will move and the second train will not get the green because train 1 has stopped
+
+Track4
+    Similar to track 2 and 3. But train one is on the track where they met before; This shows train 1 will travel through the junction properly
+
+Track5
+    Again, Similar to track 3. However, there is one more track after the convergence. Since train 1 moves to the next track and unlocks signal. 
+    Then train 2 gets the green. However, there is no signal after so train 2 collides with train 1
+
+Circle:
+    This has no terminator. All tracks are connected in a circle. with 2 trains on opposite tracks. They just go forever.
+    System made to only run X amount of turns
+
