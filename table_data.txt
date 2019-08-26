@@ -1,0 +1,8 @@
+id track	length	cf_0_id cf_1_id
+id train	direction	start_track_id	
+id connection_point	cf_0_id	cf_1_id	
+id connection_function	type		
+		terminator		
+		connection	track_id	
+		junction	selected	track_ids:
+id	signal	track_id		
